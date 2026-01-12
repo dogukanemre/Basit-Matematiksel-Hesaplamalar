@@ -1,0 +1,27 @@
+def toplama():
+    sayi1 = int(input("1. sayıyı giriniz: "))
+    sayi2 = int(input("2. sayıyı giriniz: "))
+    toplam = sayi1 + sayi2
+    print(toplam)
+def çıkarma():
+    sayi1 = int(input("1. sayıyı giriniz: "))
+    sayi2 = int(input("2. sayıyı giriniz: "))
+    toplam = sayi1 - sayi2
+    print(toplam)
+def çarpma():
+    sayi1 = int(input("1. sayıyı giriniz:\n "))
+    sayi2 = int(input("2. sayıyı giriniz:\n "))
+    sonuc = sayi1 * sayi2
+    print(sonuc)
+def menu():
+    cevap = int(input("toplama işlemi için 1 e basınız\nçıkarma işlemi için 2 ye basınız\nçarpma işlemi için 3 e basınız\n"))
+    if cevap == 1:
+        print(toplama())
+    elif cevap == 2:
+        print(çıkarma())
+    elif cevap == 3:
+        print(çarpma())
+    else:
+        print(cevap)
+while (True):
+    menu()
