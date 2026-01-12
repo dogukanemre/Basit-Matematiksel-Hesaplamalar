@@ -1,0 +1,8 @@
+x=int(input("Lütfen bir değeri giriniz:"))
+
+if x<0:
+    print("Negatif bir sayı girdiniz.")
+elif x>0:
+    print("Pozitif bir sayı girdiniz.")
+else:
+    print("0 Girdiniz")
